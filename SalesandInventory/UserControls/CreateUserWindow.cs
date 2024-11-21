@@ -138,6 +138,16 @@ namespace SalesandInventory.UserControls
         {
 
         }
+
+        private void rjButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjButton3_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

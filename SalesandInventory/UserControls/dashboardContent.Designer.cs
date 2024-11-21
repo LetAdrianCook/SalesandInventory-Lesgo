@@ -479,9 +479,9 @@
             Controls.Add(panel7);
             Controls.Add(panel6);
             Controls.Add(panel2);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "dashboardContent";
-            Size = new Size(967, 620);
+            Size = new Size(968, 635);
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();

@@ -30,7 +30,7 @@ namespace SalesandInventory
         private void InitializeNavigationControl()
         {
             List<UserControl> userControls = new List<UserControl>()
-            { new InventoryRegister(), new Supplier_Management()};
+            { new InventoryRegister(), new Supplier_Management(), new UserProfile()};
 
             navigationControl = new NavigationControl(userControls, dashPanel);
             navigationControl.Display(0);
@@ -60,7 +60,7 @@ namespace SalesandInventory
 
         private void userBtn_Click(object sender, EventArgs e)
         {
-            // navigationControl.Display(2);
+            navigationControl.Display(2);
             navigationButtons.Highlight(userBtn);
         }
 

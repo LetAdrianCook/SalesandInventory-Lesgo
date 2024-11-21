@@ -65,6 +65,7 @@
             textBox9 = new TextBox();
             label4 = new Label();
             button4 = new Button();
+            rjButton3 = new RJControls.RJButton();
             groupBox4.SuspendLayout();
             groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -84,12 +85,13 @@
             // groupBox4
             // 
             groupBox4.BackColor = SystemColors.InactiveCaption;
+            groupBox4.Controls.Add(rjButton3);
             groupBox4.Controls.Add(groupBox8);
             groupBox4.Controls.Add(groupBox3);
             groupBox4.Controls.Add(groupBox1);
             groupBox4.Location = new Point(12, 13);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(502, 361);
+            groupBox4.Size = new Size(502, 394);
             groupBox4.TabIndex = 13;
             groupBox4.TabStop = false;
             // 
@@ -163,7 +165,7 @@
             groupBox3.Font = new Font("Arial", 14F, FontStyle.Bold);
             groupBox3.Location = new Point(22, 170);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(461, 185);
+            groupBox3.Size = new Size(461, 162);
             groupBox3.TabIndex = 10;
             groupBox3.TabStop = false;
             groupBox3.Text = "Personal Information";
@@ -194,7 +196,7 @@
             label3.Font = new Font("Arial", 13F);
             label3.Location = new Point(20, 118);
             label3.Name = "label3";
-            label3.Size = new Size(123, 25);
+            label3.Size = new Size(101, 21);
             label3.TabIndex = 2;
             label3.Text = "Last Name:";
             // 
@@ -204,7 +206,7 @@
             label2.Font = new Font("Arial", 13F);
             label2.Location = new Point(20, 77);
             label2.Name = "label2";
-            label2.Size = new Size(146, 25);
+            label2.Size = new Size(120, 21);
             label2.TabIndex = 2;
             label2.Text = "Middle Name:";
             // 
@@ -214,7 +216,7 @@
             label1.Font = new Font("Arial", 13F);
             label1.Location = new Point(20, 36);
             label1.Name = "label1";
-            label1.Size = new Size(124, 25);
+            label1.Size = new Size(102, 21);
             label1.TabIndex = 2;
             label1.Text = "First Name:";
             // 
@@ -248,7 +250,7 @@
             invType.Font = new Font("Arial", 13F);
             invType.Location = new Point(20, 77);
             invType.Name = "invType";
-            invType.Size = new Size(121, 29);
+            invType.Size = new Size(101, 25);
             invType.TabIndex = 5;
             invType.TabStop = true;
             invType.Text = "Inventory";
@@ -261,7 +263,7 @@
             salesType.Font = new Font("Arial", 13F);
             salesType.Location = new Point(20, 37);
             salesType.Name = "salesType";
-            salesType.Size = new Size(87, 29);
+            salesType.Size = new Size(73, 25);
             salesType.TabIndex = 5;
             salesType.TabStop = true;
             salesType.Text = "Sales";
@@ -299,9 +301,9 @@
             groupBox5.Controls.Add(groupBox2);
             groupBox5.Controls.Add(pictureBox7);
             groupBox5.Controls.Add(textBox4);
-            groupBox5.Location = new Point(12, 380);
+            groupBox5.Location = new Point(12, 413);
             groupBox5.Name = "groupBox5";
-            groupBox5.Size = new Size(502, 246);
+            groupBox5.Size = new Size(502, 213);
             groupBox5.TabIndex = 14;
             groupBox5.TabStop = false;
             // 
@@ -316,7 +318,7 @@
             rjButton1.FlatStyle = FlatStyle.Flat;
             rjButton1.Font = new Font("Arial", 10F);
             rjButton1.ForeColor = Color.White;
-            rjButton1.Location = new Point(22, 204);
+            rjButton1.Location = new Point(22, 171);
             rjButton1.Name = "rjButton1";
             rjButton1.Size = new Size(461, 30);
             rjButton1.TabIndex = 35;
@@ -335,7 +337,7 @@
             groupBox2.Font = new Font("Arial", 14F, FontStyle.Bold);
             groupBox2.Location = new Point(22, 20);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(461, 173);
+            groupBox2.Size = new Size(461, 147);
             groupBox2.TabIndex = 17;
             groupBox2.TabStop = false;
             groupBox2.Text = "Update Information";
@@ -346,7 +348,7 @@
             label7.Font = new Font("Arial", 13F);
             label7.Location = new Point(20, 118);
             label7.Name = "label7";
-            label7.Size = new Size(123, 25);
+            label7.Size = new Size(101, 21);
             label7.TabIndex = 3;
             label7.Text = "Last Name:";
             label7.Click += label7_Click;
@@ -357,7 +359,7 @@
             label5.Font = new Font("Arial", 13F);
             label5.Location = new Point(20, 77);
             label5.Name = "label5";
-            label5.Size = new Size(146, 25);
+            label5.Size = new Size(120, 21);
             label5.TabIndex = 2;
             label5.Text = "Middle Name:";
             // 
@@ -367,7 +369,7 @@
             label6.Font = new Font("Arial", 13F);
             label6.Location = new Point(20, 36);
             label6.Name = "label6";
-            label6.Size = new Size(124, 25);
+            label6.Size = new Size(102, 21);
             label6.TabIndex = 2;
             label6.Text = "First Name:";
             // 
@@ -418,7 +420,7 @@
             textBox4.Location = new Point(80, 311);
             textBox4.Name = "textBox4";
             textBox4.PlaceholderText = "ID Number";
-            textBox4.Size = new Size(179, 22);
+            textBox4.Size = new Size(179, 17);
             textBox4.TabIndex = 15;
             // 
             // groupBox6
@@ -473,7 +475,7 @@
             textBox5.Location = new Point(80, 311);
             textBox5.Name = "textBox5";
             textBox5.PlaceholderText = "ID Number";
-            textBox5.Size = new Size(179, 22);
+            textBox5.Size = new Size(179, 17);
             textBox5.TabIndex = 15;
             // 
             // groupBox7
@@ -505,7 +507,7 @@
             label4.Font = new Font("Arial", 13F);
             label4.Location = new Point(70, 36);
             label4.Name = "label4";
-            label4.Size = new Size(92, 25);
+            label4.Size = new Size(75, 21);
             label4.TabIndex = 2;
             label4.Text = "User ID:";
             // 
@@ -521,9 +523,29 @@
             button4.Text = "DELETE";
             button4.UseVisualStyleBackColor = false;
             // 
+            // rjButton3
+            // 
+            rjButton3.BackColor = Color.MediumSpringGreen;
+            rjButton3.BackgroundColor = Color.MediumSpringGreen;
+            rjButton3.BorderColor = Color.PaleVioletRed;
+            rjButton3.BorderRadius = 10;
+            rjButton3.BorderSize = 0;
+            rjButton3.FlatAppearance.BorderSize = 0;
+            rjButton3.FlatStyle = FlatStyle.Flat;
+            rjButton3.Font = new Font("Arial", 10F);
+            rjButton3.ForeColor = Color.White;
+            rjButton3.Location = new Point(22, 345);
+            rjButton3.Name = "rjButton3";
+            rjButton3.Size = new Size(461, 30);
+            rjButton3.TabIndex = 37;
+            rjButton3.Text = "Add";
+            rjButton3.TextColor = Color.White;
+            rjButton3.UseVisualStyleBackColor = false;
+            rjButton3.Click += rjButton3_Click_1;
+            // 
             // CreateUserWindow
             // 
-            AutoScaleDimensions = new SizeF(8F, 17F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(groupBox6);
@@ -599,5 +621,6 @@
         private TextBox textBox3;
         private TextBox textBox2;
         private TextBox textBox9;
+        private RJControls.RJButton rjButton3;
     }
 }

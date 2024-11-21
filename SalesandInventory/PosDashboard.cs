@@ -30,7 +30,7 @@ namespace SalesandInventory
         private void InitializeNavigationControl()
         {
             List<UserControl> userControls = new List<UserControl>()
-            { new UserControl2(), new Report() };
+            { new UserControl2(), new UserProfile() };
 
             navigationControl = new NavigationControl(userControls, dashPanel);
             navigationControl.Display(0);
@@ -39,7 +39,7 @@ namespace SalesandInventory
         private void InitializeNavigationButton()
         {
             List<Button> buttons = new List<Button>()
-            { posBtn};
+            { posBtn, userBtn};
 
             navigationButtons = new NavigationButtons(buttons, btndDefaultColor, btndSelectedColor);
             navigationButtons.Highlight(posBtn);
@@ -53,7 +53,7 @@ namespace SalesandInventory
 
         private void userBtn_Click(object sender, EventArgs e)
         {
-            //navigationControl.Display(1);
+            navigationControl.Display(1);
             navigationButtons.Highlight(userBtn);
         }
 
@@ -69,6 +69,11 @@ namespace SalesandInventory
         {
             MessageBox.Show("Application Exited");
             Application.Exit();
+        }
+
+        private void PosDashboard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

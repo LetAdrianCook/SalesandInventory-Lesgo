@@ -55,7 +55,9 @@ namespace SalesandInventory
                             }
                             else if (userType.Equals("inventory", StringComparison.OrdinalIgnoreCase))
                             {
-                                MessageBox.Show("You are Inventory employee.");
+                                InventoryDashboard inv = new InventoryDashboard();
+                                inv.Show();
+                                this.Hide();
                             }
 
                             break;

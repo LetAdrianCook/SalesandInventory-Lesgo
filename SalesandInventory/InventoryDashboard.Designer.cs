@@ -55,19 +55,19 @@
             dashPanel.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             dashPanel.BackColor = Color.White;
             dashPanel.Dock = DockStyle.Fill;
-            dashPanel.Location = new Point(247, 74);
-            dashPanel.Margin = new Padding(2, 2, 2, 2);
+            dashPanel.Location = new Point(216, 56);
+            dashPanel.Margin = new Padding(2);
             dashPanel.Name = "dashPanel";
-            dashPanel.Size = new Size(1106, 828);
+            dashPanel.Size = new Size(968, 635);
             dashPanel.TabIndex = 11;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(353, 0);
+            label2.Location = new Point(309, 0);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(0, 20);
+            label2.Size = new Size(0, 15);
             label2.TabIndex = 10;
             // 
             // panel3
@@ -78,10 +78,10 @@
             panel3.Controls.Add(pictureBox2);
             panel3.Controls.Add(sessionName);
             panel3.Dock = DockStyle.Top;
-            panel3.Location = new Point(247, 0);
-            panel3.Margin = new Padding(2, 2, 2, 2);
+            panel3.Location = new Point(216, 0);
+            panel3.Margin = new Padding(2);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1106, 74);
+            panel3.Size = new Size(968, 56);
             panel3.TabIndex = 9;
             // 
             // exitBtn
@@ -90,10 +90,10 @@
             exitBtn.FlatStyle = FlatStyle.Flat;
             exitBtn.ForeColor = SystemColors.Control;
             exitBtn.Image = (Image)resources.GetObject("exitBtn.Image");
-            exitBtn.Location = new Point(1040, 12);
-            exitBtn.Margin = new Padding(2, 2, 2, 2);
+            exitBtn.Location = new Point(910, 9);
+            exitBtn.Margin = new Padding(2);
             exitBtn.Name = "exitBtn";
-            exitBtn.Size = new Size(49, 50);
+            exitBtn.Size = new Size(43, 38);
             exitBtn.TabIndex = 3;
             exitBtn.UseVisualStyleBackColor = true;
             exitBtn.Click += exitBtn_Click;
@@ -102,20 +102,20 @@
             // 
             sessionType.AutoSize = true;
             sessionType.Font = new Font("Arial", 10F);
-            sessionType.Location = new Point(823, 42);
+            sessionType.Location = new Point(720, 32);
             sessionType.Margin = new Padding(2, 0, 2, 0);
             sessionType.Name = "sessionType";
-            sessionType.Size = new Size(153, 19);
+            sessionType.Size = new Size(131, 16);
             sessionType.TabIndex = 2;
             sessionType.Text = "Inventory Employee";
             // 
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(982, 12);
-            pictureBox2.Margin = new Padding(2, 2, 2, 2);
+            pictureBox2.Location = new Point(859, 9);
+            pictureBox2.Margin = new Padding(2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(49, 50);
+            pictureBox2.Size = new Size(43, 38);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
@@ -124,10 +124,10 @@
             // 
             sessionName.AutoSize = true;
             sessionName.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            sessionName.Location = new Point(879, 12);
+            sessionName.Location = new Point(769, 9);
             sessionName.Margin = new Padding(2, 0, 2, 0);
             sessionName.Name = "sessionName";
-            sessionName.Size = new Size(94, 23);
+            sessionName.Size = new Size(76, 18);
             sessionName.TabIndex = 2;
             sessionName.Text = "Jane Doe";
             // 
@@ -141,9 +141,9 @@
             panel1.Controls.Add(panelLogo);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
-            panel1.Margin = new Padding(2, 2, 2, 2);
+            panel1.Margin = new Padding(2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(247, 902);
+            panel1.Size = new Size(216, 691);
             panel1.TabIndex = 8;
             // 
             // userBtn
@@ -154,11 +154,11 @@
             userBtn.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             userBtn.Image = Properties.Resources.icons8_add_administrator_30;
             userBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            userBtn.Location = new Point(0, 218);
-            userBtn.Margin = new Padding(2, 2, 2, 2);
+            userBtn.Location = new Point(0, 166);
+            userBtn.Margin = new Padding(2);
             userBtn.Name = "userBtn";
-            userBtn.Padding = new Padding(16, 0, 0, 0);
-            userBtn.Size = new Size(247, 50);
+            userBtn.Padding = new Padding(14, 0, 0, 0);
+            userBtn.Size = new Size(216, 38);
             userBtn.TabIndex = 5;
             userBtn.Text = "User Profile";
             userBtn.TextAlign = ContentAlignment.MiddleLeft;
@@ -174,11 +174,11 @@
             logoutBtn.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             logoutBtn.Image = Properties.Resources.icons8_logout_30;
             logoutBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            logoutBtn.Location = new Point(0, 852);
-            logoutBtn.Margin = new Padding(2, 2, 2, 2);
+            logoutBtn.Location = new Point(0, 653);
+            logoutBtn.Margin = new Padding(2);
             logoutBtn.Name = "logoutBtn";
-            logoutBtn.Padding = new Padding(16, 0, 0, 0);
-            logoutBtn.Size = new Size(247, 50);
+            logoutBtn.Padding = new Padding(14, 0, 0, 0);
+            logoutBtn.Size = new Size(216, 38);
             logoutBtn.TabIndex = 4;
             logoutBtn.Text = "Logout";
             logoutBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -193,11 +193,11 @@
             supplierBtn.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             supplierBtn.Image = Properties.Resources.icons8_sales_30;
             supplierBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            supplierBtn.Location = new Point(0, 168);
-            supplierBtn.Margin = new Padding(2, 2, 2, 2);
+            supplierBtn.Location = new Point(0, 128);
+            supplierBtn.Margin = new Padding(2);
             supplierBtn.Name = "supplierBtn";
-            supplierBtn.Padding = new Padding(16, 0, 0, 0);
-            supplierBtn.Size = new Size(247, 50);
+            supplierBtn.Padding = new Padding(14, 0, 0, 0);
+            supplierBtn.Size = new Size(216, 38);
             supplierBtn.TabIndex = 3;
             supplierBtn.Text = "Add Supplier";
             supplierBtn.TextAlign = ContentAlignment.MiddleLeft;
@@ -213,11 +213,11 @@
             inventoryBtn.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             inventoryBtn.Image = Properties.Resources.icons8_inventory_30;
             inventoryBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            inventoryBtn.Location = new Point(0, 118);
-            inventoryBtn.Margin = new Padding(2, 2, 2, 2);
+            inventoryBtn.Location = new Point(0, 90);
+            inventoryBtn.Margin = new Padding(2);
             inventoryBtn.Name = "inventoryBtn";
-            inventoryBtn.Padding = new Padding(16, 0, 0, 0);
-            inventoryBtn.Size = new Size(247, 50);
+            inventoryBtn.Padding = new Padding(14, 0, 0, 0);
+            inventoryBtn.Size = new Size(216, 38);
             inventoryBtn.TabIndex = 1;
             inventoryBtn.Text = "Inventory";
             inventoryBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -231,32 +231,32 @@
             panelLogo.Controls.Add(pictureBox1);
             panelLogo.Dock = DockStyle.Top;
             panelLogo.Location = new Point(0, 0);
-            panelLogo.Margin = new Padding(2, 2, 2, 2);
+            panelLogo.Margin = new Padding(2);
             panelLogo.Name = "panelLogo";
-            panelLogo.Size = new Size(247, 118);
+            panelLogo.Size = new Size(216, 90);
             panelLogo.TabIndex = 0;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(72, 2);
-            pictureBox1.Margin = new Padding(2, 2, 2, 2);
+            pictureBox1.Location = new Point(63, 2);
+            pictureBox1.Margin = new Padding(2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(103, 114);
+            pictureBox1.Size = new Size(90, 86);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
             // InventoryDashboard
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1353, 902);
+            ClientSize = new Size(1184, 691);
             Controls.Add(dashPanel);
             Controls.Add(label2);
             Controls.Add(panel3);
             Controls.Add(panel1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "InventoryDashboard";
             Text = "InventoryDashboard";
             panel3.ResumeLayout(false);
